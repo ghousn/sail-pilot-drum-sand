@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/industries/hotels",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Hotels & hospitality — MGN UNIFORMS",
+      "hasCanvas": false,
+      "bodyTextLen": 1214,
+      "bodyTextHash": "1248b22a537ed08c3510fc121b9b9178ea4114173dc3204a0e9eb6107f6e40ea",
+      "bodyTextPrefix": "MGN UNIFORMS Industries Lookbook About Request a quote FRONT OF ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/hotels.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Hotels & hospitality — MGN UNIFORMS",
+      "hasCanvas": false,
+      "bodyTextLen": 1172,
+      "bodyTextHash": "4fb95b5ddb9e4e46f1ed337fa19ee80f5b9287581287a2a4fa81aa7819e09cb0",
+      "bodyTextPrefix": "MGN UNIFORMS FRONT OF HOUSE TO THE PASS Hotels & hospitality A h",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/hotels-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/hotels.json"
+}

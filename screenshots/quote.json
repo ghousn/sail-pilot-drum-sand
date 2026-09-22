@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/quote",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Request a quote — MGN UNIFORMS",
+      "hasCanvas": false,
+      "bodyTextLen": 1402,
+      "bodyTextHash": "8206cb80b4faf86b66a1e7e50fb4acbe59d26f2efa5719745c9fba4fb2ba9752",
+      "bodyTextPrefix": "MGN UNIFORMS Industries Lookbook About Request a quote QUOTE Tel",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/quote.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Request a quote — MGN UNIFORMS",
+      "hasCanvas": false,
+      "bodyTextLen": 1360,
+      "bodyTextHash": "a19c1c92d7e20637b9c5a593711c1480f9978d6fe6fd7dcad157462b5743d5b0",
+      "bodyTextPrefix": "MGN UNIFORMS QUOTE Tell us who you need dressed. A specialist re",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/quote-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/quote.json"
+}

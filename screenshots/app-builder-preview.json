@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "MGN UNIFORMS",
+      "hasCanvas": false,
+      "bodyTextLen": 3937,
+      "bodyTextHash": "34f993b880fa76be5d4a1d2c249d1548754a0bed30a8fc733a6851b68f9e750a",
+      "bodyTextPrefix": "MGN UNIFORMS Industries Lookbook About Request a quote KARACHI ·",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "MGN UNIFORMS",
+      "hasCanvas": false,
+      "bodyTextLen": 3895,
+      "bodyTextHash": "328fb889014b9ff3205869c4008ccd05a59dfc188eb877aed8f60ef017161f6c",
+      "bodyTextPrefix": "MGN UNIFORMS KARACHI · EST. 2020 · NATIONWIDE Workplace uniforms",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

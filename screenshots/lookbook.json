@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/lookbook",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Lookbook — MGN UNIFORMS",
+      "hasCanvas": false,
+      "bodyTextLen": 1353,
+      "bodyTextHash": "d35370ce820286141409a5af81744b542ab42d3a82cd90abf64830df82fd150b",
+      "bodyTextPrefix": "MGN UNIFORMS Industries Lookbook About Request a quote LOOKBOOK ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/lookbook.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Lookbook — MGN UNIFORMS",
+      "hasCanvas": false,
+      "bodyTextLen": 1311,
+      "bodyTextHash": "7af278998228393541fadfd214e8220c19dbc9f073fc8f363e45a325c9ede2c6",
+      "bodyTextPrefix": "MGN UNIFORMS LOOKBOOK Garments for the floor, the ward, and the ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/lookbook-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/lookbook.json"
+}
