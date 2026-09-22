@@ -7,6 +7,8 @@ export const SITE = {
   founded: 2020,
   city: "Karachi",
   email: "mgnuniforms@gmail.com",
+  phone: "03417358518",
+  whatsapp: "923417358518",
   address: "Office 270, Cooperative Market, Abdullah Haroon Road, Saddar, Karachi",
   region: "Sindh, Pakistan",
   linkedin: "https://pk.linkedin.com/company/mgnuniforms",
@@ -27,8 +29,7 @@ export const INDUSTRIES = [
     summary:
       "Uniforms that hold up through check-in, turn-down, and service — tailored enough for the lobby, practical enough for the floor.",
     image: "/images/hotels.jpg",
-    imageAlt:
-      "Hotel staff in custom navy and cream uniforms in a marble lobby",
+    imageAlt: "Hotel staff in custom navy and cream uniforms in a marble lobby",
     roles: [
       "Front office & concierge",
       "Bell & guest services",
@@ -308,13 +309,7 @@ export const ROLES = [
   "Other",
 ] as const;
 
-export const QTY = [
-  "25–50",
-  "51–150",
-  "151–400",
-  "401–1,000",
-  "1,000+",
-] as const;
+export const QTY = ["25–50", "51–150", "151–400", "401–1,000", "1,000+"] as const;
 
 export const MARQUEE = [
   "Concierge",

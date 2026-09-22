@@ -27,8 +27,8 @@ function QuotePage() {
             Tell us who you need dressed.
           </h1>
           <p className="mt-5 text-base leading-relaxed text-ink-soft">
-            A specialist replies within one working day with fabric options, timing, and
-            a price for your headcount. Workplace programmes only.
+            A specialist replies within one working day with fabric options, timing, and a price for
+            your headcount. Workplace programmes only.
           </p>
           <ul className="mt-8 space-y-3 text-sm text-ink-soft">
             <li>25-piece minimum on custom styles</li>
@@ -36,12 +36,26 @@ function QuotePage() {
             <li>Nationwide dispatch from Karachi</li>
             <li>No school or college uniforms</li>
           </ul>
-          <p className="mt-10 text-sm text-muted">
-            Prefer email?{" "}
-            <a className="text-ink underline decoration-line underline-offset-4" href={`mailto:${SITE.email}`}>
-              {SITE.email}
-            </a>
-          </p>
+          <div className="mt-10 space-y-2 text-sm text-muted">
+            <p>
+              Prefer email?{" "}
+              <a
+                className="text-ink underline decoration-line underline-offset-4"
+                href={`mailto:${SITE.email}`}
+              >
+                {SITE.email}
+              </a>
+            </p>
+            <p>
+              Or call / WhatsApp{" "}
+              <a
+                className="text-ink underline decoration-line underline-offset-4"
+                href={`tel:${SITE.phone}`}
+              >
+                {SITE.phone}
+              </a>
+            </p>
+          </div>
         </div>
         <div className="lg:col-span-7">
           <div className="rounded-xl bg-paper p-1">

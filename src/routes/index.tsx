@@ -33,8 +33,8 @@ function Hero() {
             Workplace uniforms, made in Karachi.
           </h1>
           <p className="mt-5 max-w-md text-base leading-relaxed text-ink-soft">
-            Custom programmes for hotels, hospitals, factories, and enterprises. Scrubs,
-            workwear, hospitality, and branded apparel — never school or college uniforms.
+            Custom programmes for hotels, hospitals, factories, and enterprises. Scrubs, workwear,
+            hospitality, and branded apparel — never school or college uniforms.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg">
@@ -106,8 +106,8 @@ function Industries() {
           </h2>
         </div>
         <p className="max-w-sm text-sm leading-relaxed text-ink-soft">
-          If your people work a lobby, a ward, a mill, or an office — we kit the whole
-          roster. We do not make school or college uniforms.
+          If your people work a lobby, a ward, a mill, or an office — we kit the whole roster. We do
+          not make school or college uniforms.
         </p>
       </div>
       <div className="mt-10 grid gap-4 sm:grid-cols-2">
@@ -216,8 +216,8 @@ function Studio() {
           </h2>
           <p className="mt-4 text-sm leading-relaxed text-ink-soft">
             MGN UNIFORMS has made workplace clothing in Saddar, Karachi since {SITE.founded} —
-            hospital scrubs, hotel staff kits, industrial workwear, and promotional apparel
-            for companies that need a uniform, not a costume.
+            hospital scrubs, hotel staff kits, industrial workwear, and promotional apparel for
+            companies that need a uniform, not a costume.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-ink-soft">{SITE.address}.</p>
           <Button asChild className="mt-6" variant="outline">
@@ -287,15 +287,26 @@ function Contact() {
           <p className="mt-4 max-w-md text-sm leading-relaxed text-stone">
             Name, WhatsApp, and a line on the roles. We reply within one working day.
           </p>
-          <p className="mt-6 text-sm">
-            <a className="text-pine-fg underline decoration-stone underline-offset-4" href={`mailto:${SITE.email}`}>
+          <div className="mt-6 space-y-2 text-sm">
+            <a
+              className="text-pine-fg underline decoration-stone underline-offset-4"
+              href={`mailto:${SITE.email}`}
+            >
               {SITE.email}
             </a>
-          </p>
+            <p>
+              <a
+                className="text-pine-fg underline decoration-stone underline-offset-4"
+                href={`tel:${SITE.phone}`}
+              >
+                {SITE.phone}
+              </a>
+            </p>
+          </div>
         </div>
         <div className="lg:col-span-7">
           <div className="rounded-xl bg-paper p-5 sm:p-7">
-            <QuoteForm />
+            <QuoteForm compact />
           </div>
         </div>
       </div>
